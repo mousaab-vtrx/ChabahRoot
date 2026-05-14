@@ -1,0 +1,20 @@
+# Ignore everything by default
+*
+*/
+
+# Whitelist files to track (matching tar.gz contents)
+!chabahroot.sh
+!README.md
+
+# Whitelist directories
+!vigie_comportementale/
+!socle_commun/
+!examples/
+
+# Whitelist specific files in those directories
+!vigie_comportementale/detection_rules.json
+!socle_commun/rules.conf
+!examples/sample_events.ndjson
+
+# Keep .gitignore itself
+!.gitignore

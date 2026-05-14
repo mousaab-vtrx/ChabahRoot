@@ -1,0 +1,5 @@
+{"pid": 1234, "ppid": 1, "uid": 1000, "gid": 1000, "ts": "2024-05-14-18-44-00", "comm": "bash", "argv": "/bin/bash", "event_type": 1}
+{"pid": 1235, "ppid": 1234, "uid": 1000, "gid": 1000, "ts": "2024-05-14-18-44-05", "comm": "ls", "argv": "/bin/ls", "event_type": 1}
+{"pid": 1236, "ppid": 1234, "uid": 0, "gid": 0, "ts": "2024-05-14-18-44-10", "comm": "sudo", "argv": "sudo", "event_type": 1}
+{"pid": 1236, "ppid": 1234, "uid": 0, "gid": 0, "ts": "2024-05-14-18-44-11", "comm": "bash", "argv": "/bin/bash", "event_type": 2}
+{"pid": 1237, "ppid": 1234, "uid": 1000, "gid": 1000, "ts": "2024-05-14-18-44-15", "comm": "cat", "argv": "/etc/passwd", "event_type": 1}

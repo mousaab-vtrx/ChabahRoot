@@ -307,6 +307,4 @@ Assurez-vous que `capture-start` a ete execute avec succes (`capture-status` doi
 
 ---
 
-## Licence
 
-Voir le fichier `LICENSE` a la racine du depot.

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "rule_001",
+    "name": "Suspicious UID Change",
+    "type": "behavior",
+    "severity": "high",
+    "description": "Detects setuid system calls",
+    "conditions": {
+      "event_type": 2
+    },
+    "actions": ["journal"]
+  },
+  {
+    "id": "rule_002",
+    "name": "Suspicious GID Change",
+    "type": "behavior",
+    "severity": "medium",
+    "description": "Detects setgid system calls",
+    "conditions": {
+      "event_type": 3
+    },
+    "actions": ["journal"]
+  },
+  {
+    "id": "rule_003",
+    "name": "Root Process Execution",
+    "type": "behavior",
+    "severity": "medium",
+    "description": "Tracks root-level command execution",
+    "conditions": {
+      "uid": 0
+    },
+    "actions": ["journal"]
+  }
+]
